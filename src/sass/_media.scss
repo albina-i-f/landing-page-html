@@ -1,0 +1,439 @@
+@media (max-width: 1376px) {
+	/* ----- Development ----- */
+	.development {
+		.item-wrap {
+			.large-text {
+				font-size: -a-rem(45px);
+			}
+		}
+	}
+	/* ----- SEO, Adaptivity, Support ----- */
+	.seo, 
+	.adaptivity,
+	.support {
+		h3 {
+			font-size: -a-rem(33px);
+			padding-top: 5px;
+
+			.bg-text {
+				font-size: -a-rem(55px);
+				padding-left: (40px / 620px) * 100%;
+			}
+		}
+	}
+	/* ----- Contact us ----- */
+	.contact-us-wrap {
+		%text {
+			padding: {
+				left: (25px / 620px) * 100%;
+				right: (120px / 620px) * 100%;
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	/* --------------------- Header ------------------- */
+	.header-wrap {
+		h1 {
+			padding: 0;
+		}
+		.lead {
+			padding: 0 (100px / 1240px) * 100%;
+		}
+	}
+	/* ----- Development ----- */
+	.development {
+		.item-wrap {
+			.large-text {
+				font-size: -a-rem(37px);
+				height: 90px;
+			}
+		}
+		.price-large {
+			padding: 1px 5px;
+		}
+	}
+	/* ----- Contact us ----- */
+	.contact-us-wrap {
+		h4 {
+			font-size: -a-rem(28px);
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	/* ----------- Containers and elements ---------- */
+	%home-section {
+		padding: {
+			bottom: 75px;
+			top: 75px;
+		}
+	}
+	%text-left {
+		padding-left: (25px / 620px) * 100%;
+	}
+	/* --------------------- Header ------------------- */
+	.header-wrap {
+		.achievement {
+			width: 250px;
+		}
+	}
+	/* --------------------- Navigation ------------------- */
+	nav {
+		padding: {
+			bottom: 0;
+			top: 0;
+		}
+		position: relative;
+		text-align: right;
+		z-index: 100;
+
+		ul {
+			border-top: 2px solid #adadad;
+			display: none;
+			float: none;
+			margin-top: -5px;
+			max-height: calc(100vh - 57px);
+			overflow-y: auto;
+			text-align: center;
+		}
+		li {
+			display: block;
+		}
+		li + li > a {
+			padding-left: 0;
+		}
+		a {
+			line-height: 2.5;
+		}
+	}
+	.nav-toggle {
+		display: inline-block;
+	}
+	/* --------------------- Content ------------------- */
+	/* ----- About ----- */
+	.about {
+		.bg-text {
+			padding-top: 120px;
+		}
+		h2 {
+			margin: {
+				bottom: 10px;
+				top: 0;
+			}
+		}
+		.lead {
+			margin: 20px 0 75px;
+		}
+		.item {
+			padding: {
+				left: 0;
+				right: 0;
+			}
+		}
+		.accent-item {
+			padding: {
+				left: (50px/1240px) *100%;
+				right: (50px/1240px) *100%;
+			}
+		}
+	}
+	/* ----- Development ----- */
+	.development {
+		padding-bottom: 0;
+		.rectangle-up {
+			height: 420px;
+			padding-top: 75px;
+			width: 60%;
+		}
+		%dev-item {
+			margin-top: 50px;
+		}
+	}
+
+	/* ----- SEO ----- */
+	.seo {
+		h3 {
+			margin-top: 0;
+			.bg-text {
+				padding-left: 0;
+			}
+		}
+	}
+	/* ----- Portfolio ----- */
+	.portfolio {
+		padding: 10px 0;
+		.project1 {
+			width: 100%;
+		}
+		.project2 {
+			width: 100%;
+		}
+		.project3 {
+			width: (350px / 731px) * 100%;
+		}
+		.project4 {
+			width: (381px / 731px) * 100%;
+		}		
+		.project5 {
+			width: (376px / 769px) * 100%;
+		}	
+		.project6 {
+			width: (393px / 769px) * 100%;
+		}	
+	}
+	/* ----- Adaptivity ----- */
+	.adaptivity {
+		h3 {
+			margin: {
+				left: (130px / 1500px) * 100%;
+				right: (130px / 1500px) * 100%;
+				top: 0;
+			}
+			padding-left: (25px / 620px) * 100%;
+
+			.bg-text {
+				padding-left: 0;
+			}
+		}
+		.lead {
+			margin: {
+				left: (130px / 1500px) * 100%;
+				right: (130px / 1500px) * 100%;
+			}
+			padding-left: (25px / 620px) * 100%;
+		}
+	}
+	/* ----- Trade-in ----- */
+	.trade-in-wrap {
+		padding: 50px (130px / 1500px) * 100%;
+		.h1 {
+			margin-bottom: 30px;
+		}
+		p {
+			margin-bottom: 40px;
+		}
+		h4 {
+			font-size: -a-rem(26px);
+			.text {
+				margin-top: 15px;
+			}
+		}
+	}
+	/* ----- Support ----- */
+	.support {
+		h3 {
+			margin-top: 0;
+			.bg-text {
+				padding-left: 0;
+			}
+		}
+	}	
+	/* ----- Contact us ----- */
+	.contact-us-wrap {
+		%text {
+			padding: 0;
+		}
+		p {
+			margin-bottom: 40px;
+		}
+	}
+	/* --------------------- Pop-up form ------------------- */
+	.popup-form {
+		padding: 35px;
+	}
+}
+
+@media (max-width: 767px) {
+	/* ---------- Typography ---------- */
+	h1, .h1,
+	h2, .h2 {
+		font-size: -a-rem(40px);
+	}
+	/* ----- About ----- */
+	.about {
+		.bg-text {
+			font-size: -a-rem(150px);
+		}
+	}
+	/* ----- Development ----- */
+	.development {
+		.rectangle-up {
+			width: 75%;
+		}
+	}
+	/* ----- SEO ----- */
+	.seo {
+		.certificate {
+			margin: 30px auto;
+		}
+	}
+	/* ----- Portfolio ----- */
+	.portfolio {
+		h3 {
+			height: 80px;
+			margin-bottom: 0;
+			padding-top: 7px;
+			.bg-text {
+				font-size: -a-rem(65px);
+			}
+		}
+	}
+	/* ----- Adaptivity ----- */
+	.adaptivity {
+		.adaptivity-img {
+			margin: 30px 0;
+		}
+	}
+	/* ----- Support ----- */
+	.support {
+		.support-img {
+			margin: 30px 0;
+		}
+	}
+	/* ----- Contact us ----- */
+	.contact-form {
+		.form-control {
+			&.right {
+				border-left-width: 5px;
+				margin-top: -5px;
+			}
+		}
+		.small {
+			margin-bottom: 15px;
+		}
+	}
+	/* --------------------- Pop-up form ------------------- */
+	.popup-form {
+		padding: 20px;
+		.form-control {
+			&.right {
+				border-left-width: 3px;
+				margin-top: -3px;
+			}
+		}
+	}
+}
+
+@media (max-width: 540px) {
+	/* ---------- Typography ---------- */
+	h1, .h1
+	h2, .h2 {
+		font-size: -a-rem(35px);
+	}
+	/* ---------- Header ---------- */
+	.header-wrap {
+		h1 {
+			margin-top: 15px;
+		}
+		.lead {
+			padding: 0;
+		}
+	}
+	/* ----- Credo ----- */
+	.credo-wrap {
+		.large-text {
+			font-size: -a-rem(37px);
+		}
+		.lead {
+			margin: {
+				left: 0;
+				right: 0;
+			}
+		}
+	}
+	/* ----- Development ----- */
+	.development {
+		.rectangle-up {
+			.h1 {
+				font-size: -a-rem(30px);
+			}
+		}
+		%dev-item {
+			width: 90%;
+		}
+	}
+	/* ----- SEO, Adaptivity, Support ----- */
+	.seo, 
+	.adaptivity,
+	.support {
+		h3 {
+			font-size: -a-rem(27px);
+			padding-top: 4px;
+
+			.bg-text {
+				font-size: -a-rem(43px);
+			}
+		}
+	}
+	/* ----- SEO ----- */
+	.seo {
+		.certificate {
+			width: 60%;
+		}
+	}
+	/* ----- Portfolio ----- */
+	.portfolio {
+		h3 {
+			height: 130px;
+			padding-top: 4px;
+			.bg-text {
+				font-size: -a-rem(55px);
+			}
+		}
+		.project3 {
+			width: 100%;
+		}
+		.project4 {
+			width: 100%;
+		}		
+		.project5 {
+			width: 100%;
+		}	
+		.project6 {
+			width: 100%;
+		}	
+	}
+	/* ----- Button to-top ----- */	
+	.to-top {
+		right: (130px / 1500px) * 100%;
+	}
+}
+
+@media (min-width: 540px) and(max-width: 991px) {
+	/* ----- Development ----- */
+	.development {
+		%dev-item {
+			width: 366px;
+		}
+		.item-wrap {
+			.large-text {
+				font-size: -a-rem(50px);
+				height: 117px;
+			}
+		}
+		.price-large {
+			padding: 1px 25px;
+		}
+	}
+	/* ----- SEO ----- */
+	.seo {
+		.certificates-container {
+			text-align: center;
+		}
+		.certificate {
+			display: inline-block;
+			margin: 30px (15px / 620px) * 100% 30px;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	/* --------------------- Navigation ------------------- */
+	nav {
+		ul {
+			display: block !important; /* to prevent menu hiding (because of slideToggle() in main.js) after resizing from small width to large*/
+		}
+	}
+}
